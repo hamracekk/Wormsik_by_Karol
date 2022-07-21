@@ -29,23 +29,40 @@ Nastavenie hry:
 Ovládanie hry:
   Na "Vstupnej obrazovke je aj tlačítko s názvom "How to play". Po kliknutí na toto tlačitko sa uživateľ dostane na scénu na ktorej je graficky znázornené,
   akými klávesami je možné ovladať hru.
+  
+  
   Klavesa Num1: klavesa pre spustenie jetpacku. Po opätovnom kliknutí sa jetpack automaticky vypne a hračovy tým pádom skončí kolo. Tato "abilita" môže byť každým       wormsíkom použitá iba 1 krát.
+  
+  
   Klavesa Num2: Klavesa pre zbraň "ďelo". Po kliknutí klávesy wormsík vytiahne ďelo. Ďalej je možno uhol výstrelu ovládať pomocou pohybu myšky na 
-  obrazovke (uhol mierenia je možne vidieť z animácie wormsíka - pohybuje delom podľa pozície myšky). Ďalej podržaním klávesy "medzerník" hráč udeľuje 
-  potrebnú energiu výstrelu. To akú veľKú energiu doteraz hráč udelil je možné vidieť z lišty nad wormsíkom, ktorá sa bude predlžvoať umerne s časom držania 
-  klávesy "medzerník". Ak dlžka lišty dosiahne určitej kritickej hodnoty (ak je rovnako dlhá ako lišta života wormsíka) tak je bomba autoaticky vystrelená.
+  obrazovke (uhol mierenia je možné vidieť z animácie wormsíka - pohybuje delom podľa pozície myšky). Ďalej podržaním klávesy "medzerník" hráč udeľuje 
+  potrebnú energiu výstrelu. To akú veľkú energiu doteraz hráč udelil je možné vidieť z lišty nad wormsíkom, ktorá sa bude predlžovať úmerne s časom držania 
+  klávesy "medzerník". Ak dlžka lišty dosiahne určitej kritickej hodnoty (ak je rovnako dlhá ako lišta života wormsíka) tak je bomba automaticky vystrelená.
   Bomba však môže byť vystrelená predčasne pomocou uvolnenia klávesy "medzerník".
+  
+  
   Klavesa Num3: Klavesa pre spustenie zbrane "vertical flame". Po kliknutí tejto klávesy wormsík nad niektorým nepriateľským týmom (vybraný náhodne) spustí 
-  sériu ohnivých "gluí", ktoré vertikálne padajú smerom dole k zemi, a tým pádom môžu poškodiť životy nepriateľských wormsíkov (ale i vlastných ak sa nachádzajú v       blízkosti dopadu). Táto zbraň môže byť každým wormsíkom použitá iba 1 krát.
+  sériu ohnivých "gulí", ktoré vertikálne padajú smerom dole k zemi, a tým pádom môžu poškodiť životy nepriateľských wormsíkov (ale i vlastných ak sa nachádzajú v       blízkosti dopadu). Táto zbraň môže byť každým wormsíkom použitá iba 1 krát.
+  
+  
   Klavesa Num4: Klavesa pre spustenie schopnosti "punch". Wormsík v určitom svojom okolí "udrie" všetkých okolitých wormsíkov (i z rovnakého týmu) a vezme im polku ich života. Úder udeľuje určitú kinetiku, ktorá spôsobí odmrštenie wormsíkov od epicentra.
+  
+  
   Klavesa C: klavesa pre zmenu wormsíka v jednom týme. Hráč ktorý je práve na "ťahu" môže pomocou tejto klávesy zmeniť wormsíka (v svojom tíme), ktorého práve kontroluje.
-  Klavesa Z: Zoom IN/OUT: Klávesa pomocou ktorej môže hráč ktorý je práve na "ťahu" meniť veľkosť kamery. Sú možné 2 réžimy: Réžim velkej a malej kamery. 
+  
+  
+  Klavesa Z: Zoom IN/OUT: Klávesa pomocou ktorej môže hráč ktorý je práve na "ťahu" meniť veľkosť kamery. Sú možné 2 réžimy: Réžim veľkej a malej kamery. 
+  
+  
   Šípka hore/do prava/do ľava: Pohyb wormsíkom (ktorého si hráč vybral) do strán (do prava / do ľava) + výskok (šípka hore).
+  
+  
   Klavesa medzerník: Udeľuje energiu výstrelu. 
   
   
  Priebeh hry:
  Každý hráč ma na dokončenie svojho kola 20s. Po uplynutí tohto času sa tým automaticky prepne na ďalší. Hrač môže za svoje "kolo" využiť maximálne 1 "schopnosť" wormsíka. Po využití schopnosti sa kolo taktiež automaticky skončí. Niketoré schopnosti je možné využívať opakovane (delo) a iné môže použiť každý wormsík len 1 krát (vertical flame). V niektorých častiach hry hráč nemá kontrolu nad ovládaním. To sú časti hry kedy kamera sleduje určité "následky" použitia schopností, alebo keď končí/začína hra. Cieľom hry je zvíťaziť nad ostatnými hráčmi (maximálne 4 hráči), vyradením všetkých nepriateľských wormsíkov z hry (vynulovaním života wormsíkov). 
+  
   
 Jednotlívé C# skripty pre jednotlivé scény sa nachádzaju v súbore "Scripts" s cestou: Assets\Scripts
 Každá scnéna má svoje skripty uložené zvlášť v súbore s menom ktoré vystihuje danú scénu. Takže napríklad všetky skripty,
