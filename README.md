@@ -69,5 +69,16 @@ Každá scnéna má svoje skripty uložené zvlášť v súbore s menom ktoré v
 ktoré sú nejko spojené s logikou hry sú uložene v súbore "Game_scripts" s cestou: Worms_first_version\Assets\Scripts\Game_scripts
 (a podbne pre ostatné scény: "How_to_play_scripts", "Loading_scripts", "Main_menu_scripts"
 
+Poznámky:
+Fyzika je naprogramovaná mnou. Nepoužival som na to žiadnu knihovňu. Za logiku fyziky a objektov na ktorých pôsobí je zodpovedná trieda "Ph_engine" (detekcia kolízií, udeľovanie zrýchlenia, kontrola stability ..).
+Kvôli tejto fyzike som musel využiť abstraktné triedy, aby som mohol jednoducho "pôsobiť fyzikou" na všetky objekty aj keď sú odlišného typu.
+Preto je v mojom programe abstraktná trieda "Physics_object", ktorá má parametre a metody ktoré potrebuje "Ph_engine" (rýchlosť, zrýchlenie, poloha, metoda posunu), a od tejto abstraktnej triedy "Physics_object" sú potom odvodené triedy (pomocou dedičnosti) pre wormsíka "WORM", pre úlomky "Debri_object", pre bombu "Bomb_object", ktoré majú svoje vlastné metody a atributy.
 
+
+Trieda "Main_function" zodpovedá za logiku hry, za to v akom stave je kamera, či ma hráč "v ruke ovládanie", či sú splnené podmienky pre použitie určitej schopnosti.
+za zmenu týmu a podobne... Táto trieda komuniku s triedou "Ph_engine" a s triedou "Procedural_Gen" (generácia zeme, ostrovčekov, jaskýň).
+
+Trieda "Procedural_Gen" ma za úlohu generaovať (pomocou funkcie prelinoise) rôzne typy zeme, jaskyne, ostrovčeky a zapisať to do prislušnej matice (potrebná hlavne pre kontrolu kolízií).
+
+Trieda "camera_fllow_script" zodpovedá za logiku kamery, za presuvanie časovača, líšt života, tlačítka spolu s kamerou. Za zmenu réžimu kamery atd...
 P.S. za gramatické chyby v skriptoch sa vopred ospravedlňujem
