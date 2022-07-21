@@ -5,10 +5,10 @@ Krok č.1 stiahnuť súborov ZIP:
 Pre spustiteľnú hru je potrebné nasledujúće:
 Stiahnutie súborov: "others", "others_num2", "Worms_game_Copy_Data", 
                     "Worms_game_Copy_BurstDebugInformation_DoNotShip",
-                    "MonoBleedingEdge",
-1.Krok: Je potrebné rozbaliť vsšetky súbory do jednoho "hlavného" súboru.
-2.Krok: Následne je potrebné všetky súbory/položky zo súborov
-        "others" a "others_num2" presnúť do "hlavného" súboru.
+                    "MonoBleedingEdge", /n
+1.Krok: Je potrebné rozbaliť vsšetky súbory do jednoho "hlavného" súboru. /n
+2.Krok: Následne je potrebné všetky súbory/položky zo súborov /n
+        "others" a "others_num2" presnúť do "hlavného" súboru. /n
 3.krok: Po presune možte prázdne súbory "others" a "others_num2" zmazať.
 4.Krok: Hra sa spúšťa pomocou .exe súboru ktorý by sa po vykonaní kroku č.2 mal 
         nachádzať v "hlavnom" súbore. Meno tohto exe súboru je Worms_game_Copy.exe
