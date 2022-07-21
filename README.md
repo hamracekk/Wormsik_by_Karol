@@ -24,6 +24,8 @@ Nastavenie hry:
   Na začiatku resp. na "Vstupnej scéne" si uživateľ môže nastaviť počet hráčov v hre a počet wormsíkov v každom tíme pomocou "slidebarov".
   Maximálny počet hráčov a počet wormsíkov v každom tíme je 4 (obmedzené dlžkou slide baru). Po nastavení týchto paramtrov môže uživateľ začať hru
   kliknutím tlačítka "Play".
+  
+  
 Ovládanie hry:
   Na "Vstupnej obrazovke je aj tlačítko s názvom "How to play". Po kliknutí na toto tlačitko sa uživateľ dostane na scénu na ktorej je graficky znázornené,
   akými klávesami je možné ovladať hru.
@@ -40,6 +42,7 @@ Ovládanie hry:
   Klavesa Z: Zoom IN/OUT: Klávesa pomocou ktorej môže hráč ktorý je práve na "ťahu" meniť veľkosť kamery. Sú možné 2 réžimy: Réžim velkej a malej kamery. 
   Šípka hore/do prava/do ľava: Pohyb wormsíkom (ktorého si hráč vybral) do strán (do prava / do ľava) + výskok (šípka hore).
   Klavesa medzerník: Udeľuje energiu výstrelu. 
+  
   
  Priebeh hry:
  Každý hráč ma na dokončenie svojho kola 20s. Po uplynutí tohto času sa tým automaticky prepne na ďalší. Hrač môže za svoje "kolo" využiť maximálne 1 "schopnosť" wormsíka. Po využití schopnosti sa kolo taktiež automaticky skončí. Niketoré schopnosti je možné využívať opakovane (delo) a iné môže použiť každý wormsík len 1 krát (vertical flame). V niektorých častiach hry hráč nemá kontrolu nad ovládaním. To sú časti hry kedy kamera sleduje určité "následky" použitia schopností, alebo keď končí/začína hra. Cieľom hry je zvíťaziť nad ostatnými hráčmi (maximálne 4 hráči), vyradením všetkých nepriateľských wormsíkov z hry (vynulovaním života wormsíkov). 
